@@ -54,7 +54,7 @@ a {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -73,15 +73,7 @@ a {
 .order-button:focus {
   background-color: #404bbf;
 }
-.focus-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-focus-list-item {
+focus-list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -99,10 +91,14 @@ focus-list-item {
 .team-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-section-item {
+  background-color: #fff;
 }
 .team-member-header {
   font-weight: 500;
@@ -121,10 +117,11 @@ focus-list-item {
 .portfolio-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list-header {
   font-weight: 500;
@@ -143,6 +140,7 @@ footer {
   background-color: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
