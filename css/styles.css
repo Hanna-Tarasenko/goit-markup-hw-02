@@ -73,7 +73,7 @@ a {
 .order-button:focus {
   background-color: #404bbf;
 }
-focus-list-header {
+.focus-list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
